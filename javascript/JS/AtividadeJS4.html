@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> cópia do "Tô sem ideiA de nomes para dar :/" (atividade 3) pq tô com preguiça</title>
+</head>
+
+<style>
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    img{
+        width: 90px;
+        height: 10px;
+        align-items: center; /*nem funciona*/
+    }
+
+</style>
+
+<body>
+    
+    <img src="09dd037a9c146b53b255c7ac1f0542e2.jpg" alt="SCRAPS">
+
+    <h1>sem NUMBERS dessa vez :c</h1>
+
+    <button onclick="NuMBERS()"> ou será que não? </button>
+
+    <script>
+        function NuMBERS(){
+            let product = window.prompt('produto plz');
+            let price = window.prompt(`legal, coloca o preço do ${product}`);
+            let quanto = window.prompt(`ok, agora quanto tu tem do ${product}`);
+            let troco = price - quanto
+            window.alert(`ok, sobra ${troco} com isso, tudo por um(a) ${product}, obrigada`);
+        }
+        
+    </script>
+
+</body>
+</html>
