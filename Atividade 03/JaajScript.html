@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaaJScript.html</title>
+    <style>
+        button{
+            background-color:aliceblue;
+            font-family: sans-serif;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="clique()">clique aqui :D</button>
+    <section id="AA">
+        <p>Resultados :P</p>
+    </section>
+
+    <script>
+        function clique(){
+            let 이름 = window.prompt('qual o seu 이름(nome)?');
+            let resultado = document.getElementById('AA');
+            resultado.innerHTML = `<p>Seu 이름 é ${이름} :D </p>`
+        }
+    </script>
+</body>
+</html>
